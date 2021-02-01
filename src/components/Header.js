@@ -32,7 +32,7 @@ const HeaderSection = styled.section`
 `
 const ImageContainer = styled.div`
   display: flex;
-  padding: 10%;
+  padding: 5%;
 
   @media (min-width: 668px) {
     padding: 2%;
@@ -49,6 +49,7 @@ const HeaderHeading = styled.h1`
   font-family: 'Lexend Deca', sans-serif;
   font-weight: normal;
   font-size: 60px;
+  text-shadow: 2px 2px black;
 
   @media (min-width: 668px) {
     display: flex;

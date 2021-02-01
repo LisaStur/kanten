@@ -5,25 +5,29 @@ import { Header } from './components/Header'
 import { Fb } from './components/Fb'
 import { StartPage } from './components/StartPage'
 import { SectionLinks } from './components/SectionLinks'
+import { Menue } from './components/Menue'
 
 export const Home = () =>{
 
   return (
     <BrowserRouter>
-    <HomeSection  >
-      <Header />
-      <SectionLinks />
-      <ScreenSize>
-      <Switch>
-        <Route path='/'>
-          <StartPage />
+      <HomeSection >
+        <Header />
+        <SectionLinks />
+        <ScreenSize>
+          <Switch>
+            <Route path='/' exact>
+              <StartPage />
+            </Route>
+            <Route path='/menue'>
+              <Menue />
+            </Route>
+          </Switch>
           <FbSection>
             <Fb />
           </FbSection>
-        </Route>
-      </Switch>
-      </ScreenSize>
-    </HomeSection>
+        </ScreenSize>
+      </HomeSection>
     </BrowserRouter>
   )
 } 
@@ -33,12 +37,13 @@ const HomeSection = styled.section`
   flex-direction: column;
 `
 const ScreenSize = styled.section`
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-@media (min-width: 668px) {
-  flex-direction: row;
-}
+  @media (min-width: 668px) {
+    flex-direction: row;
+    width: 100%;
+  }
 `
 const FbSection = styled.div`
   display: flex;
@@ -48,6 +53,6 @@ const FbSection = styled.div`
   @media (min-width: 668px) {
     align-items: flex-end;
     padding-right: 2%;
-    margin-top: 32px;
+    margin-top: 5%;
   }
 `

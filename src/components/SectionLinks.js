@@ -23,9 +23,17 @@ const StyledLink = styled(NavLink)`
   font-weight: normal;
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   background: #d00115;
   padding: 5px 10px;
   border-radius: 5px;
   box-shadow: 2px 2px 1px black;
+
+  &:hover {
+    box-shadow: 4px 4px 2px black;
+  }
+
+  &:active {
+    box-shadow: 1px 1px 0 black;
+  }
 `
