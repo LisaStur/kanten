@@ -17,14 +17,26 @@ export const Header = () => {
 
 const HeaderSection = styled.section`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  background: black;
+  width: 100%;
+
+  @media (min-width: 668px) {
+    justify-content: space-evenly;
+  }
+
+  @media (min-width: 1024px) {
+    justify-content: center;
+  }
 `
 const ImageContainer = styled.div`
   display: flex;
-  padding: 5%;
+  padding: 10%;
+
+  @media (min-width: 668px) {
+    padding: 2%;
+  }  
 `
 const Image = styled.img`
   height: auto;
@@ -33,6 +45,12 @@ const Image = styled.img`
 const HeaderHeading = styled.h1`
   display: none;
   color: white;
+  padding: 2%;
   font-family: 'Lexend Deca', sans-serif;
   font-weight: normal;
+  font-size: 60px;
+
+  @media (min-width: 668px) {
+    display: flex;
+  }
 `

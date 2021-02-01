@@ -1,4 +1,5 @@
-p {
-  text-align: center;
-  font-size: 40px;
+body {
+  background-image: url(./assets/brygga2.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
 }
