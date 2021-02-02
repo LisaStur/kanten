@@ -17,6 +17,11 @@ const LinkContainer = styled.section`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+
+  @media (min-width: 668px) {
+    justify-content: flex-end;
+    margin: 0 2% 0 0;
+  }
 `
 const StyledLink = styled(NavLink)`
   font-family: 'Lexend Deca', sans-serif;
@@ -28,6 +33,7 @@ const StyledLink = styled(NavLink)`
   padding: 5px 10px;
   border-radius: 5px;
   box-shadow: 2px 2px 1px black;
+  margin: 1%;
 
   &:hover {
     box-shadow: 4px 4px 2px black;

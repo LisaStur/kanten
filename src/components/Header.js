@@ -20,9 +20,9 @@ const HeaderSection = styled.section`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
 
   @media (min-width: 668px) {
+    margin: 12px 0 0 0;
     justify-content: space-evenly;
   }
 
@@ -45,11 +45,13 @@ const Image = styled.img`
 const HeaderHeading = styled.h1`
   display: none;
   color: white;
-  padding: 2%;
+  padding: 0 0 12px 0;
   font-family: 'Lexend Deca', sans-serif;
   font-weight: normal;
   font-size: 60px;
   text-shadow: 2px 2px black;
+  margin-block-start: 0;
+  margin-block-end: 0;
 
   @media (min-width: 668px) {
     display: flex;
