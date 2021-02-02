@@ -22,7 +22,7 @@ const HeaderSection = styled.section`
   align-items: center;
 
   @media (min-width: 668px) {
-    margin: 12px 0 0 0;
+    margin: 24px 0 0 0;
     justify-content: space-evenly;
   }
 

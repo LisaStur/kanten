@@ -22,7 +22,7 @@ export const StartPage = () => {
 const StartPageSection = styled.section`
   display: flex;
   flex-direction: column;
-  margin: 5%;
+  margin: 12px;
   background-color: rgba(100,100,130, 0.6);
 `
 const StartPageHeader = styled.h1`

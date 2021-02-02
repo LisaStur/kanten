@@ -5,7 +5,7 @@ import { Header } from './components/Header'
 import { Fb } from './components/Fb'
 import { StartPage } from './components/StartPage'
 import { SectionLinks } from './components/SectionLinks'
-import { Menue } from './components/Menue'
+import { Meny } from './components/Meny'
 
 export const Home = () =>{
 
@@ -20,7 +20,7 @@ export const Home = () =>{
               <StartPage />
             </Route>
             <Route path='/menue'>
-              <Menue />
+              <Meny />
             </Route>
           </Switch>
           <FbSection>
@@ -52,6 +52,6 @@ const FbSection = styled.div`
   @media (min-width: 668px) {
     align-items: flex-end;
     margin-right: 2%;
-    margin-top: 5%;
+    margin-top: 12px;
   }
 `

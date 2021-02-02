@@ -27,8 +27,8 @@ const MenueSection = styled.section`
   display: flex;
   flex-direction: column;
   background-color: rgba(100,100,130, 0.6);
-  margin: 3%;
-  padding: 2%;
+  margin: 12px;
+  padding: 12px;
   width: 90%;
   `
 const MenueHeader = styled.div`
