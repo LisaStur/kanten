@@ -12,8 +12,10 @@ export const Home = () =>{
   return (
     <BrowserRouter>
       <HomeSection >
+        <BiggestScreen>
         <Header />
         <SectionLinks />
+        </BiggestScreen>
         <ScreenSize>
           <Switch>
             <Route path='/' exact>
@@ -35,6 +37,16 @@ export const Home = () =>{
 const HomeSection = styled.section`
   display: flex;
   flex-direction: column;
+`
+const BiggestScreen = styled.div`
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 2%;
+  }
 `
 const ScreenSize = styled.section`
   display: flex;

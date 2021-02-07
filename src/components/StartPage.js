@@ -23,7 +23,7 @@ const StartPageSection = styled.section`
   display: flex;
   flex-direction: column;
   margin: 12px;
-  background-color: rgba(100,100,130, 0.6);
+  background-color: rgba(100,100,130, 0.8);
 `
 const StartPageHeader = styled.h1`
   font-family: 'Lexend Deca', sans-serif;

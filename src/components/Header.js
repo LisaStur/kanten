@@ -32,10 +32,10 @@ const HeaderSection = styled.section`
 `
 const ImageContainer = styled.div`
   display: flex;
-  padding: 5%;
+  padding-top: 24px;
 
   @media (min-width: 668px) {
-    padding: 2%;
+    padding-top: 0;
   }  
 `
 const Image = styled.img`
@@ -45,7 +45,6 @@ const Image = styled.img`
 const HeaderHeading = styled.h1`
   display: none;
   color: white;
-  padding: 0 0 12px 0;
   font-family: 'Lexend Deca', sans-serif;
   font-weight: normal;
   font-size: 60px;
@@ -55,5 +54,9 @@ const HeaderHeading = styled.h1`
 
   @media (min-width: 668px) {
     display: flex;
+  }
+
+  @media (min-width: 1024px) {
+    padding: 0 0 0 24px;
   }
 `
