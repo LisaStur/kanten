@@ -7,7 +7,7 @@ export const Header = () => {
   return (
     <HeaderSection>
       <ImageContainer>
-        <Image src={logo} alt='Strandkanten logo'/>
+        <LogoImage src={logo} alt='Strandkanten logo'/>
       </ImageContainer>
       <HeaderHeading>Strandkanten</HeaderHeading>
     </HeaderSection>
@@ -38,7 +38,7 @@ const ImageContainer = styled.div`
     padding-top: 0;
   }  
 `
-const Image = styled.img`
+const LogoImage = styled.img`
   height: auto;
   width: 100%;
 `

@@ -312,7 +312,6 @@ export const Meny = () => {
         </EachEntry>
       </BigScreen>
     </MenySection>
-
   )
   
 }
@@ -324,7 +323,7 @@ const MenySection = styled.section`
   margin: 12px;
   padding: 12px 0;
   background-color: rgba(100,100,130, 0.8);
-  width: 94%;
+  width: 80%;
 
   @media (min-width: 1024px) {
     flex-direction: row;
@@ -334,6 +333,12 @@ const MenySection = styled.section`
 const BigScreen = styled.div`
   display: flex;
   flex-direction: column;
+
+  @media (min-width: 1024px) {
+    width: 45%;
+    padding: 0 5% 3% 5%;
+  }
+  
 `
 const MenyHeader = styled.h2`
   color: white;
@@ -365,6 +370,9 @@ const MenyEntry = styled.p`
   @media (min-width: 668px) {
     font-size: 16px;
   }
+  @media (min-width: 1024px) {
+    font-size: 16px;
+  }
 `
 const MenyDetail = styled.p`
   color: white;
@@ -375,6 +383,9 @@ const MenyDetail = styled.p`
 
   @media (min-width: 668px) {
     font-size: 12px;
+  }
+  @media (min-width: 1024px) {
+    font-size: 14px;
   }
 `
 const Price = styled.p`
@@ -389,6 +400,10 @@ margin-block-end: 0;
 
 @media (min-width: 668px) {
   font-size: 12px;
+}
+@media (min-width: 1024px) {
+  padding-top: 1px;
+  font-size: 14px;
 }
 `
 const DrinkHeader = styled.h3`
@@ -405,6 +420,9 @@ const DrinkHeader = styled.h3`
     font-size: 20px;
     padding-top: 12px;
   }
+  @media (min-width: 668px) {
+    font-size: 20px;
+  }
 `
 const DrinkEntry = styled.div`
   display: flex;
@@ -413,16 +431,20 @@ const DrinkEntry = styled.div`
   padding: 0 12px;
 `
 const DrinkDetail = styled.p`
-color: white;
-font-family: 'Lexend Deca', sans-serif;
-font-size: 10px;
-padding-top:4px;
-margin-block-start: 0;
-margin-block-end: 0;
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 10px;
+  padding-top:4px;
+  margin-block-start: 0;
+  margin-block-end: 0;
 
-@media (min-width: 668px) {
-  font-size: 12px;
-}`
+  @media (min-width: 668px) {
+    font-size: 12px;
+  }
+  @media (min-width: 668px) {
+    font-size: 14px;
+  }
+`
 const Ingredients = styled(DrinkDetail)`
   font-style: italic;
   display: flex;

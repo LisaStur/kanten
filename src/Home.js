@@ -6,6 +6,7 @@ import { Fb } from './components/Fb'
 import { StartPage } from './components/StartPage'
 import { SectionLinks } from './components/SectionLinks'
 import { Meny } from './components/Meny'
+import { Contact } from './components/Contact'
 
 export const Home = () =>{
 
@@ -23,6 +24,9 @@ export const Home = () =>{
             </Route>
             <Route path='/menue'>
               <Meny />
+            </Route>
+            <Route path='/contact'>
+              <Contact />
             </Route>
           </Switch>
           <FbSection>
