@@ -58,6 +58,7 @@ const ScreenSize = styled.section`
 
   @media (min-width: 668px) {
     flex-direction: row;
+    width: 100%;
   }
 `
 const FbSection = styled.div`
@@ -67,7 +68,7 @@ const FbSection = styled.div`
 
   @media (min-width: 668px) {
     align-items: flex-end;
-    margin-right: 2%;
+    margin-right: 8px;
     margin-top: 12px;
   }
 `
