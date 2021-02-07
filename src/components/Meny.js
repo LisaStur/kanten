@@ -148,7 +148,6 @@ export const Meny = () => {
         </EachEntry>
       </BigScreen>
       <BigScreen>
-       
         <MenyHeader>Dryck</MenyHeader>
         <DrinkHeader>Öl</DrinkHeader>
         <EachEntry>
@@ -321,13 +320,18 @@ const MenySection = styled.section`
   display: flex;
   flex-direction: column;
   margin: 12px;
-  padding: 12px 0;
+  padding: 12px 12px 0 0;
   background-color: rgba(100,100,130, 0.8);
-  width: 80%;
+  
+  @media (min-width: 668px) {
+    justify-content: space-between;
+    width: 100%;
+  }
 
   @media (min-width: 1024px) {
     flex-direction: row;
     justify-content: space-evenly;
+    width: 80%;
   }
 `
 const BigScreen = styled.div`
