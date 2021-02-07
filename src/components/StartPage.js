@@ -64,6 +64,10 @@ const StartPageText = styled.p`
   font-size: 16px;
   margin-block-start: 0;
   margin: 2% 4%;
+
+  @media (min-width: 1024px) {
+    font-size: 18px;
+  }  
 `
 const StartPageTextBiggerScreen = styled(StartPageText)`
   display: none;
