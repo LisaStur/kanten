@@ -25,5 +25,6 @@ export const Fb = () => {
 
 const FbBox = styled.div`
   display: flex;
+  width: 340px;
 `
 

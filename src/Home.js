@@ -67,7 +67,6 @@ const FbSection = styled.div`
   align-items: center;
 
   @media (min-width: 668px) {
-    align-items: flex-end;
     margin-right: 8px;
     margin-top: 12px;
   }
