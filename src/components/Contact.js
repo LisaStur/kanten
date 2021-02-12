@@ -16,7 +16,10 @@ export const Contact = () => {
         </ContactText>
         <ContactText>
           Om du kommer med egen båt finns det en gästhamn bredvid Strandkanten att lägga till vid.
-          </ContactText>
+        </ContactText>
+        <ContactText>
+          Vi tar inga bordsbeställningar. Kom förbi så gör vi vårt bästa för att hitta plats åt alla.
+        </ContactText>
       </ContactTextSection>
       <MapBox>
         <iframe title="Strandkanten map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d515.3008139394348!2d11.011601829256326!3d58.89448019884429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTjCsDUzJzQwLjEiTiAxMcKwMDAnNDMuNyJF!5e0!3m2!1ssv!2sse!4v1612715756096!5m2!1ssv!2sse" width="300" height="200" frameborder="0" style={{border:0}} allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
