@@ -71,8 +71,14 @@ const MapBox = styled.div`
   display: flex;
   justify-content: center;
   align-item: center;
+  padding: 12px;
   
+
   @media (min-width: 668px) {
-    padding: 2%;
+    padding: 24px;
+  }  
+  
+  @media (min-width: 1024px) {
+    padding: 8% 4% 0 0;
   }  
 `
