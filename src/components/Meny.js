@@ -309,6 +309,7 @@ export const Meny = () => {
           <DrinkDetail>Sprit</DrinkDetail>
           <Price> 1cl 25kr</Price>
         </EachEntry>
+        <BackLink href="#top">Tillbaka ↑</BackLink>
       </BigScreen>
     </MenySection>
   )
@@ -393,22 +394,22 @@ const MenyDetail = styled.p`
   }
 `
 const Price = styled.p`
-color: white;
-font-family: 'Lexend Deca', sans-serif;
-font-weight: normal;
-font-size: 10px;
-padding-top: 4px;
-text-align: end;
-margin-block-start: 0;
-margin-block-end: 0;
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: normal;
+  font-size: 10px;
+  padding-top: 4px;
+  text-align: end;
+  margin-block-start: 0;
+  margin-block-end: 0;
 
-@media (min-width: 668px) {
-  font-size: 12px;
-}
-@media (min-width: 1024px) {
-  padding-top: 1px;
-  font-size: 14px;
-}
+  @media (min-width: 668px) {
+    font-size: 12px;
+  }
+  @media (min-width: 1024px) {
+    padding-top: 1px;
+    font-size: 14px;
+  }
 `
 const DrinkHeader = styled.h3`
   color: white;
@@ -453,4 +454,15 @@ const Ingredients = styled(DrinkDetail)`
   font-style: italic;
   display: flex;
   flex-direction: row;
+`
+const BackLink = styled.a`
+  color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  padding: 24px 0 12px 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  text-decoration: none;
+  text-align: end;
 `

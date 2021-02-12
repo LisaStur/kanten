@@ -10,7 +10,7 @@ export const Contact = () => {
         <ContactText>
           Kosteröarna ligger en mil väster om Strömstad. Det går reguljära båtturer hit från Strömstad med Västtrafik, Koster Marin.  
           Strandkanten ligger ett par hundra meter från Västra Bryggan. Tidtabell hittar du här: 
-          <TimeTableLink href="http://www.kostermarin.se/">Koster Marins Tidtabell</TimeTableLink>
+          <TimeTableLink href="http://www.kostermarin.se/">Koster Marins tidtabell</TimeTableLink>
           <br /> Eller använd Västtrafiks reseplanerare med "Från: Strömstad norra hamnen, Strömstad" och "Till: Koster Västra Bryggan, Strömstad" här: 
           <TimeTableLink href="https://www.vasttrafik.se/">Västtrafiks reseplanerare</TimeTableLink>
         </ContactText>
