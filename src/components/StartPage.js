@@ -19,7 +19,7 @@ export const StartPage = () => {
         </StartPageTextBiggerScreen>
         <StartPageSmallHeader>Öppettider:</StartPageSmallHeader>
         <StartPageText>
-          För närvarande har vi vinterstängt. Vi håller tummarna för vaccinations- och Covid-läget och återkommer i vår!
+          Följ oss på Facebook för uppdateringar om öppettider och övriga nyheter!
         </StartPageText>
       </StartPageTextBox>
       <PageImageContainer>
