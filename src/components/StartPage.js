@@ -15,7 +15,7 @@ export const StartPage = () => {
         </StartPageText>
         <StartPageTextBiggerScreen>Restaurang Strandkanten har öppet under sommarhalvåret och drivs av Maria Wogenius 
           med familj tillsammmans med kollegor från öarna. Säsongen startar vid påsk och sträcker sig till och med hummerfisket i oktober.
-          Under högsäsong är det öppet alla dagar medan vi för- och eftersäsong håller öppet på helgerna.
+          Under högsäsong är det öppet alla dagar medan det för- och eftersäsong är öppet på helgerna.
         </StartPageTextBiggerScreen>
         <StartPageSmallHeader>Öppettider:</StartPageSmallHeader>
         <StartPageText>
