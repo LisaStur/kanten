@@ -9,35 +9,23 @@ export const Meny = () => {
         <MenyHeader>Insegling</MenyHeader>
         <EachEntry>
           <MenyEntry>Pommes med aioli</MenyEntry>
-          <Price>59kr</Price>
-        </EachEntry>
-        <EachEntry>
-          <MenyEntry>Vitlöksbröd</MenyEntry>
           <Price>69kr</Price>
         </EachEntry>
         <EachEntry>
-          <MenyEntry>Fyrvaktarnas skagentoast</MenyEntry>
-          <Price>liten 139kr / stor 189kr</Price>
+          <MenyEntry>Vitlöksbröd</MenyEntry>
+          <Price>75kr</Price>
         </EachEntry>
         <EachEntry>
           <MenyEntry>Nachos med salsa och aioli</MenyEntry>
-          <Price>65kr</Price>
+          <Price>69kr</Price>
         </EachEntry>
         <EachEntry>
           <MenyEntry>Strandkantens räksmörgås</MenyEntry>
-          <Price>liten 189kr / stor 239kr</Price>
+          <Price>liten 209kr / stor 269kr</Price>
         </EachEntry>
         <EachEntry>
           <MenyEntry>Caesarsallad</MenyEntry>
-          <Price>kyckling 179kr / räkor 199kr</Price>
-        </EachEntry>
-        <EachEntry>
-          <MenyEntry>Löjromschips</MenyEntry>
-          <Price>169kr</Price>
-        </EachEntry>
-        <EachEntry>
-          <MenyEntry>Gratinerade Kosterkräftor</MenyEntry>
-          <Price>liten 239kr / stor 369kr</Price>
+          <Price>kyckling 199kr / räkor 209kr</Price>
         </EachEntry>
         <MenyHeader>Förtöjning</MenyHeader>
         <EachEntry>
@@ -45,63 +33,35 @@ export const Meny = () => {
             <MenyEntry>Kaptens fisk &amp; skaldjurssoppa</MenyEntry>
             <MenyDetail>med vitlöksbröd, extra vitlöksbröd 15kr</MenyDetail>
           </WithDetail>
-          <Price>169kr</Price>
-        </EachEntry>
-        <EachEntry>
-          <WithDetail>
-            <MenyEntry>Strimlad svensk ryggbiff</MenyEntry>
-            <MenyDetail>med pommes, bearnaise och sallad</MenyDetail>
-          </WithDetail>
-          <Price>209kr</Price>
-        </EachEntry>
-        <EachEntry>
-          <WithDetail>
-            <MenyEntry>Fish &amp; chips på torsk</MenyEntry>
-            <MenyDetail>med remouladsås</MenyDetail>
-          </WithDetail>
-          <Price>179kr</Price>
+          <Price>189kr</Price>
         </EachEntry>
         <EachEntry>
           <WithDetail>
             <MenyEntry>Högrevsburgare 200g</MenyEntry>
             <MenyDetail>med pommes</MenyDetail>
           </WithDetail>
-          <Price>179kr / med ost 194kr</Price>
+          <Price>199kr / med ost 214kr</Price>
+        </EachEntry>
+        <EachEntry>
+          <WithDetail>
+            <MenyEntry>Strimlad svensk ryggbiff</MenyEntry>
+            <MenyDetail>med pommes, bearnaise och sallad</MenyDetail>
+          </WithDetail>
+          <Price>259kr</Price>
+        </EachEntry>
+        <EachEntry>
+          <WithDetail>
+            <MenyEntry>Fish &amp; chips på torsk</MenyEntry>
+            <MenyDetail>med remouladsås</MenyDetail>
+          </WithDetail>
+          <Price>199kr</Price>
         </EachEntry>
         <EachEntry>
           <WithDetail>
             <MenyEntry>Halloumiburgare</MenyEntry>
             <MenyDetail>med pommes</MenyDetail>
           </WithDetail>
-          <Price>189kr</Price>
-        </EachEntry>
-        <EachEntry>
-          <WithDetail>
-            <MenyEntry>Vegetarisk hamburgare</MenyEntry>
-            <MenyDetail>med pommes</MenyDetail>
-          </WithDetail>
-          <Price>179kr</Price>
-        </EachEntry>
-        <EachEntry>
-          <WithDetail>
-            <MenyEntry>Lotsens bakpotatis</MenyEntry>
-            <MenyDetail>med skagenröra</MenyDetail>
-          </WithDetail>
-          <Price>169kr</Price>
-        </EachEntry>
-        <EachEntry>
-          <WithDetail>
-            <MenyEntry>Varmrökt lax</MenyEntry>
-            <MenyDetail>med sallad och hjortronsås</MenyDetail>
-          </WithDetail>
           <Price>199kr</Price>
-        </EachEntry>
-        <EachEntry>
-          <WithDetail>
-            <MenyEntry>Strandö special</MenyEntry>
-            <MenyDetail>Burfångade havskräftor med tillbehör</MenyDetail>
-          </WithDetail>
-          <Price>Dagspris</Price>
         </EachEntry>
       </BigScreen>
       <BigScreen>
@@ -111,34 +71,37 @@ export const Meny = () => {
             <MenyEntry>Hamburgare 90g</MenyEntry>
             <MenyDetail>med pommes</MenyDetail>
           </WithDetail>
-          <Price>89kr</Price>
+          <Price>99kr</Price>
         </EachEntry>
         <EachEntry>
           <WithDetail>
             <MenyEntry>Grillkorv</MenyEntry>
             <MenyDetail>med pommes</MenyDetail>
           </WithDetail>
-          <Price>89kr</Price>
+          <Price>99kr</Price>
         </EachEntry>
         <EachEntry>
           <WithDetail>
-            <MenyEntry>Småttingarnas strimlad ryggbiff</MenyEntry>
+            <MenyEntry>Liten fish &amp; chips på torsk</MenyEntry>
+            <MenyDetail>med remouladsås</MenyDetail>
+          </WithDetail>
+          <Price>139kr</Price>
+        </EachEntry>
+        <EachEntry>
+          <WithDetail>
+            <MenyEntry>Liten strimlad ryggbiff</MenyEntry>
             <MenyDetail>med pommes, bearnaise och sallad</MenyDetail>
           </WithDetail>
-          <Price>159kr</Price>
+          <Price>169kr</Price>
         </EachEntry>
         <EachEntry>
           <WithDetail>
             <MenyEntry>Amerikanska pannkakor</MenyEntry>
             <MenyDetail>med sylt och grädde</MenyDetail>
           </WithDetail>
-          <Price>69kr</Price>
+          <Price>79kr</Price>
         </EachEntry>
         <MenyHeader>Efterdyning</MenyHeader>
-        <EachEntry>
-          <MenyEntry>Strandkantens glassbomb</MenyEntry>
-          <Price>129kr</Price>
-        </EachEntry>
         <EachEntry>
           <MenyEntry>Glass med chokladsås</MenyEntry>
           <Price>49kr</Price>
@@ -148,11 +111,11 @@ export const Meny = () => {
             <MenyEntry>Chokladkaka</MenyEntry>
             <MenyDetail>med vispad grädde</MenyDetail>
           </WithDetail>
-          <Price>99kr</Price>
+          <Price>105kr</Price>
         </EachEntry>
         <EachEntry>
           <MenyEntry>Äppelkaka med vaniljsås</MenyEntry>
-          <Price>99kr</Price>
+          <Price>105kr</Price>
         </EachEntry>
       </BigScreen>
       {/*<BigScreen>
