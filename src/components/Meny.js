@@ -6,6 +6,9 @@ export const Meny = () => {
   return (
     <MenySection>
       <BigScreen>
+        <MenyHeader>Meny för 2023 kommer när säsongen närmar sig</MenyHeader>
+      </BigScreen>
+      {/*<BigScreen>
         <MenyHeader>Insegling</MenyHeader>
         <EachEntry>
           <MenyEntry>Pommes med aioli</MenyEntry>
@@ -117,7 +120,7 @@ export const Meny = () => {
           <MenyEntry>Äppelkaka med vaniljsås</MenyEntry>
           <Price>105kr</Price>
         </EachEntry>
-      </BigScreen>
+      </BigScreen>*/}
       {/*<BigScreen>
         <MenyHeader>Dryck</MenyHeader>
         <DrinkHeader>Öl</DrinkHeader>
@@ -326,7 +329,7 @@ const MenyHeader = styled.h2`
   margin-block-start: 0;
   margin-block-end: 0;
 `
-const EachEntry = styled.div`
+/*const EachEntry = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -381,7 +384,7 @@ const Price = styled.p`
     padding-top: 1px;
     font-size: 14px;
   }
-`
+`*/
 /* const DrinkHeader = styled.h3`
   color: white;
   font-family: 'Lexend Deca', sans-serif;
