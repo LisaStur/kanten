@@ -6,7 +6,7 @@ export const Meny = () => {
   return (
     <MenySection>
       <BigScreen>
-        <MenyHeader>Meny för 2023 kommer när säsongen närmar sig</MenyHeader>
+        <MenyHeader>Meny för 2023 kommer snart!</MenyHeader>
       </BigScreen>
       {/*<BigScreen>
         <MenyHeader>Insegling</MenyHeader>
