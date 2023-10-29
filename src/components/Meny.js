@@ -5,7 +5,8 @@ export const Meny = () => {
 
   return (
     <MenySection>
-      <BigScreen>
+      <MenyHeader>Vi har stängt för säsongen. Välkomna tillbaka i vår!</MenyHeader>
+      {/*<BigScreen>
         <MenyHeader>Insegling</MenyHeader>
         <EachEntry>
           <MenyEntry>Pommes med aioli</MenyEntry>
@@ -158,7 +159,7 @@ export const Meny = () => {
           <MenyEntry>Strandkantens glassbomb</MenyEntry>
           <Price>149kr</Price>
         </EachEntry>
-      </BigScreen>
+      </BigScreen>*/}
       {/*<BigScreen>
         <MenyHeader>Dryck</MenyHeader>
         <DrinkHeader>Öl</DrinkHeader>
@@ -347,7 +348,7 @@ const MenySection = styled.section`
     width: 80%;
   }
 `
-const BigScreen = styled.div`
+/* const BigScreen = styled.div`
   display: flex;
   flex-direction: column;
 
@@ -356,7 +357,7 @@ const BigScreen = styled.div`
     padding: 0 5% 3% 5%;
   }
   
-`
+`*/
 const MenyHeader = styled.h2`
   color: white;
   font-family: 'Lexend Deca', sans-serif;
@@ -367,7 +368,7 @@ const MenyHeader = styled.h2`
   margin-block-start: 0;
   margin-block-end: 0;
 `
-const EachEntry = styled.div`
+/* const EachEntry = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -422,7 +423,8 @@ const Price = styled.p`
     padding-top: 1px;
     font-size: 14px;
   }
-`
+`*/
+
 /* const DrinkHeader = styled.h3`
   color: white;
   font-family: 'Lexend Deca', sans-serif;

@@ -1,4 +1,4 @@
-import React from 'react' 
+import React from 'react'
 import styled from 'styled-components'
 import masar from '../assets/masar.jpg'
 import masar2 from '../assets/masar2.jpg'
@@ -8,23 +8,23 @@ export const StartPage = () => {
   return (
     <StartPageSection>
       <StartPageTextBox>
-        <StartPageHeader>Välkommen!</StartPageHeader>
-        <StartPageText>Restaurang Strandkanten på Nordkoster erbjuder mat och dryck i en fantastisk miljö med 
+        <StartPageHeader>Vi har stängt för säsongen.<br />Välkommen tillbaka i vår!</StartPageHeader>
+        <StartPageText>Restaurang Strandkanten på Nordkoster erbjuder mat och dryck i en fantastisk miljö med
           utomhusservering på bryggan eller inomhus i den mysiga sjöboden.
           Passa på att handla presenter till dig själv och andra i den välfyllda butiken.
         </StartPageText>
-        <StartPageTextBiggerScreen>Restaurang Strandkanten har öppet under sommarhalvåret och drivs av Maria Wogenius 
+        <StartPageTextBiggerScreen>Restaurang Strandkanten har öppet under sommarhalvåret och drivs av Maria Wogenius
           med familj tillsammmans med kollegor från öarna. Säsongen startar vid påsk och sträcker sig till och med hummerfisket i oktober.
           Under högsäsong är det öppet alla dagar medan det för- och eftersäsong är öppet på helgerna.
         </StartPageTextBiggerScreen>
-        <StartPageSmallHeader>Öppettider:</StartPageSmallHeader>
+        {/*        <StartPageSmallHeader>öppettider:</StartPageSmallHeader>
         <StartPageText>
           Följ oss på Facebook för uppdateringar om öppettider och övriga nyheter!
-        </StartPageText>
+        </StartPageText>*/}
       </StartPageTextBox>
       <PageImageContainer>
-        <PageImage src={masar} alt='Strandkantens brygga'/>
-        <PageImageSmall src={masar2} alt='Strandkantens brygga'/> 
+        <PageImage src={masar} alt='Strandkantens brygga' />
+        <PageImageSmall src={masar2} alt='Strandkantens brygga' />
       </PageImageContainer>
     </StartPageSection>
   )
@@ -52,13 +52,13 @@ const StartPageHeader = styled.h1`
   font-size: 24px;
   margin: 4% 0 0 4%;
 `
-const StartPageSmallHeader = styled.h2`
+/* const StartPageSmallHeader = styled.h2`
   font-family: 'Lexend Deca', sans-serif;
   font-weight: normal;
   color: white;
   font-size: 18px;
   margin: 4% 0 0 4%;
-`
+`*/
 const StartPageText = styled.p`
   color: white;
   font-size: 16px;
