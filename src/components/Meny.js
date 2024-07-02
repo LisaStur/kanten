@@ -5,7 +5,7 @@ export const Meny = () => {
 
   return (
     <MenySection>
-      <MenyHeader>Vi har stängt för säsongen. Välkomna tillbaka i vår!</MenyHeader>
+      <MenyHeader>Meny</MenyHeader>
       {/*<BigScreen>
         <MenyHeader>Insegling</MenyHeader>
         <EachEntry>
