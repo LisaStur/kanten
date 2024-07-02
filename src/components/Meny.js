@@ -5,7 +5,6 @@ export const Meny = () => {
 
   return (
     <MenySection>
-      <MenyHeader>Meny</MenyHeader>
       <BigScreen>
         <MenyHeader>Insegling</MenyHeader>
         <EachEntry>
