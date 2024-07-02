@@ -8,7 +8,7 @@ export const StartPage = () => {
   return (
     <StartPageSection>
       <StartPageTextBox>
-        <StartPageHeader>Vi har stängt för säsongen.<br />Välkommen tillbaka i vår!</StartPageHeader>
+        <StartPageHeader>Välkommen till Strandkanten!</StartPageHeader>
         <StartPageText>Restaurang Strandkanten på Nordkoster erbjuder mat och dryck i en fantastisk miljö med
           utomhusservering på bryggan eller inomhus i den mysiga sjöboden.
           Passa på att handla presenter till dig själv och andra i den välfyllda butiken.
@@ -17,10 +17,9 @@ export const StartPage = () => {
           med familj tillsammmans med kollegor från öarna. Säsongen startar vid påsk och sträcker sig till och med hummerfisket i oktober.
           Under högsäsong är det öppet alla dagar medan det för- och eftersäsong är öppet på helgerna.
         </StartPageTextBiggerScreen>
-        {/*        <StartPageSmallHeader>öppettider:</StartPageSmallHeader>
         <StartPageText>
           Följ oss på Facebook för uppdateringar om öppettider och övriga nyheter!
-        </StartPageText>*/}
+        </StartPageText>
       </StartPageTextBox>
       <PageImageContainer>
         <PageImage src={masar} alt='Strandkantens brygga' />
