@@ -93,13 +93,13 @@ export const Meny = () => {
           </WithDetail>
           <Price>279kr</Price>
         </EachEntry>
-        {/*<EachEntry>
+        <EachEntry>
           <WithDetail>
             <MenyEntry>Strandö-special</MenyEntry>
             <MenyDetail>Nyfångade havskräftor med smör, bröd och aioli</MenyDetail>
           </WithDetail>
           <Price>dagspris</Price>
-        </EachEntry> */}
+        </EachEntry>
       </BigScreen>
       <BigScreen>
         <MenyHeader>Småttingarnas</MenyHeader>
@@ -150,10 +150,10 @@ export const Meny = () => {
           </WithDetail>
           <Price>119kr</Price>
         </EachEntry>
-        {/*<EachEntry>
+        <EachEntry>
           <MenyEntry>Äpplekaka med vaniljsås</MenyEntry>
           <Price>110kr</Price>
-        </EachEntry>*/}
+        </EachEntry>
         <EachEntry>
           <MenyEntry>Strandkantens glassbomb</MenyEntry>
           <Price>149kr</Price>
