@@ -6,7 +6,7 @@ export const Meny = () => {
     <MenySection>
       <BigScreen>
         <MenyHeader>Insegling</MenyHeader>
-        {/*<EachEntry>
+        <EachEntry>
           <MenyEntry>Pommes med aioli</MenyEntry>
           <Price>95kr</Price>
         </EachEntry>
@@ -101,7 +101,7 @@ export const Meny = () => {
             <MenyDetail>med vispad grädde</MenyDetail>
           </WithDetail>
           <Price>119kr</Price>
-        </EachEntry>*/}
+        </EachEntry>
       </BigScreen>
     </MenySection>
   );
@@ -144,7 +144,6 @@ const MenyHeader = styled.h2`
   margin-block-start: 0;
   margin-block-end: 0;
 `;
-{/*
 const EachEntry = styled.div`
   display: flex;
   flex-direction: row;
@@ -155,7 +154,6 @@ const WithDetail = styled.div`
   display: flex;
   flex-direction: column;
 `;
-
 const MenyEntry = styled.p`
   color: white;
   font-family: "Lexend Deca", sans-serif;
@@ -201,4 +199,4 @@ const Price = styled.p`
     padding-top: 1px;
     font-size: 14px;
   }
-`;*/}
+`;
